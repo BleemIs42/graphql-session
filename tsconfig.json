@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es6", "dom"],
+    "declaration": true,
+    "skipLibCheck": true,
+    "rootDir": "src",
+    "outDir": "lib",
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["src/**/__tests__/*.ts"]
+}
