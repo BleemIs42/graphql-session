@@ -6,8 +6,7 @@
   "license": "MIT",
   "scripts": {
     "watch": "tsc -w",
-    "build": "tsc",
-    "start": "node lib/index.js"
+    "build": "rm -rf lib && tsc"
   },
   "dependencies": {
     "apollo-cache-inmemory": "^1.4.3",

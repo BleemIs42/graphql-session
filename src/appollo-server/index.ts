@@ -11,8 +11,8 @@ const typeDefs = gql`
     "A simple type for getting started!"
     hello: String,
     helloMock: String,
+    user: User!
   }
-
   type Mutation {
     user( name: String!, age: Int! ): User!
   }
@@ -21,10 +21,14 @@ const typeDefs = gql`
 const resolvers = {
   Query: {
     hello: () => 'world',
-    helloMock: () =>
-    fetch('https://fourtonfish.com/hellosalut/?mode=auto')
+    helloMock: () => fetch('https://fourtonfish.com/hellosalut/?mode=auto')
       .then(res => res.json())
-      .then(data => data.hello)
+      .then(data => data.hello),
+    user: () => ({
+      id: 'xdcfggrdds',
+      name: 'hahaha',
+      age: 123,
+    })
   },
   Mutation: {
     user: (parent, args) => {
