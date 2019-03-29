@@ -1,10 +1,11 @@
 {
-  "name": "graphql-restful",
+  "name": "graphql-session",
   "version": "0.0.1",
-  "description": "A graphql project with restful api.",
+  "description": "A GraphQL session",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "watch": "tsc -w",
     "build": "tsc",
     "start": "node lib/index.js"
   },
@@ -13,15 +14,16 @@
     "apollo-client": "^2.4.13",
     "apollo-link": "^1.2.8",
     "apollo-link-rest": "^0.7.0",
+    "apollo-server": "^2.4.8",
     "graphql": "^14.1.1",
     "graphql-anywhere": "^4.1.28",
     "graphql-tag": "^2.10.1",
-    "qs": "^6.6.0"
+    "node-fetch": "^2.3.0",
+    "qs": "^6.6.0",
+    "fetch-headers": "^2.0.0"
   },
   "devDependencies": {
     "@types/node": "^11.9.4",
-    "fetch-headers": "^2.0.0",
-    "node-fetch": "^2.3.0",
     "typescript": "^3.3.3"
   }
 }
