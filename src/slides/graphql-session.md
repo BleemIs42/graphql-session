@@ -110,4 +110,6 @@ query Person {
 - [TypeGraphQL](https://typegraphql.ml/)
 - [TypeORM](https://typeorm.io)
 - [React Apollo](https://github.com/apollographql/react-apollo)
+- [graphql-voyager](https://github.com/APIs-guru/graphql-voyager)
+- [graphql-crunch](https://github.com/banterfm/graphql-crunch)
 - ...
