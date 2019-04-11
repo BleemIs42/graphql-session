@@ -103,7 +103,7 @@ type User{
 
 ```typescript
 query Person {
-    person @rest(type: "Person", path: "people/1") {
+    person @rest(type: "Person", method: 'GET', path: "people/1") {
       name
       height
       mass,
