@@ -4,7 +4,12 @@ highlightTheme: "monokai"
 slideNumber: true
 backgroundTransition: 'zoom'
 logoImg: 'images/logo.png'
-title: 'GraphQL'
+title: 'Hello, GraphQL'
+---
+<!-- .slide: data-background-image="images/graph-wash.png" -->
+
+# Hello, GraphQL
+
 ---
 
 <!-- .slide: data-background-image="images/graph-wash.png" -->
@@ -103,7 +108,11 @@ type User{
 
 ```typescript
 query Person {
-    person @rest(type: "Person", method: 'GET', path: "people/1") {
+    person @rest(
+        type: "Person",
+        method: 'GET',
+        path: "people/1"
+    ) {
       name
       height
       mass,
@@ -119,6 +128,7 @@ query Person {
 ## Who use it
 
 - [Github](https://developer.github.com/v4/)
+- Facebook
 - ......
 
 ---
