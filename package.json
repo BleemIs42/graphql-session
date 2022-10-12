@@ -13,7 +13,7 @@
     "apollo-client": "^2.4.13",
     "apollo-link": "^1.2.8",
     "apollo-link-rest": "^0.7.0",
-    "apollo-server": "^2.4.8",
+    "apollo-server": "^2.25.4",
     "graphql": "^14.1.1",
     "graphql-anywhere": "^4.1.28",
     "graphql-tag": "^2.10.1",
