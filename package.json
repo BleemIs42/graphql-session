@@ -18,7 +18,7 @@
     "graphql-anywhere": "^4.1.28",
     "graphql-tag": "^2.10.1",
     "node-fetch": "^2.3.0",
-    "qs": "^6.6.0",
+    "qs": "^6.6.1",
     "fetch-headers": "^2.0.0"
   },
   "devDependencies": {
